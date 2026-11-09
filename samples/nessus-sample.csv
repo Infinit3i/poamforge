@@ -1,0 +1,10 @@
+Plugin ID,CVE,CVSS v2.0 Base Score,Risk,Host,Protocol,Port,Name,Synopsis,Description,Solution,See Also,Plugin Output,CVSS v3.0 Base Score,VPR Score,EPSS Score,Exploit Available,Vulnerability Publication Date,Patch Publication Date
+187315,CVE-2023-48795,5.9,Medium,10.0.0.5,tcp,22,SSH Terrapin Prefix Truncation Weakness,The remote SSH server is vulnerable.,Terrapin attack desc,Contact the vendor for an update with the strict kex countermeasures.,https://terrapin-attack.com,,5.9,6.1,0.95,true,2023/12/18,2023/12/18
+187315,CVE-2023-48795,5.9,Medium,10.0.0.6,tcp,22,SSH Terrapin Prefix Truncation Weakness,The remote SSH server is vulnerable.,Terrapin attack desc,Contact the vendor for an update with the strict kex countermeasures.,https://terrapin-attack.com,,5.9,6.1,0.95,true,2023/12/18,2023/12/18
+182873,CVE-2023-44487,7.8,High,10.0.0.7,tcp,443,HTTP/2 Rapid Reset,DoS via HTTP/2.,desc,Upgrade to nginx 1.25.3 or later.,,,7.5,4.4,0.82,true,2023/10/10,2023/10/10
+108797,,10.0,Critical,10.0.0.8,tcp,0,Unsupported Windows OS (remote),The remote OS is no longer supported.,desc,Upgrade to a supported version of Windows.,,,10.0,,,false,2017/01/01,
+19506,,,None,10.0.0.5,tcp,0,Nessus Scan Information,info,info,n/a,,,,,,,,
+19506,,,None,10.0.0.7,tcp,0,Nessus Scan Information,info,info,n/a,,"Nessus version : 10.8
+Credentialed checks : yes
+Scan type : Normal",,,,,,
+19506,,,None,10.0.0.8,tcp,0,Nessus Scan Information,info,info,n/a,,"Credentialed checks : no",,,,,,

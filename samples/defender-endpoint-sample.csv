@@ -1,0 +1,4 @@
+Device ID,Device Name,Domain,First Seen,OS Platform,OS Distribution,OS Version,OS Build,Tags,Group,Device IPs,Risk Level,Exposure Level,Health Status,Onboarding Status,Device Role,Is Internet Facing
+a1b2c3,web01.contoso.com,contoso.com,2025-01-01,Linux,Ubuntu,22.04,5.15.0-97,prod,Web,"10.0.0.7, fe80::1",High,Medium,Active,Onboarded,,true
+d4e5f6,DC01,contoso.com,2025-01-01,WindowsServer2012R2,,6.3,9600,legacy,DCs,10.0.0.8,High,High,Active,Onboarded,Domain controller,false
+g7h8i9,LAPTOP-99,contoso.com,2025-01-01,Windows11,,23H2,22631.4317,,Users,10.0.5.20,Low,Low,Active,Onboarded,,false

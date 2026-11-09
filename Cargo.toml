@@ -1,0 +1,21 @@
+[package]
+name = "poamforge"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = "0.4.45"
+csv = "1.4.0"
+eframe = "0.35.0"
+egui_extras = "0.35.0"
+rfd = "0.17.2"
+serde_json = "1.0.154"
+umya-spreadsheet = "3.1.1"
+ureq = "2"
+
+[profile.release]
+opt-level = "s"
+lto = true
+codegen-units = 1
+strip = true
+panic = "abort"
